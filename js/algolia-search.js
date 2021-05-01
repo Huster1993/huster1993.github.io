@@ -3,13 +3,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const algoliaSettings = CONFIG.algolia;
   const { indexName, appID, apiKey } = algoliaSettings;
+  const input = document.querySelector('.search-input');
 
   let search = instantsearch({
     indexName,
     searchClient  : algoliasearch(appID, apiKey),
     searchFunction: helper => {
-      let searchInput = document.querySelector('.search-input');
-      if (searchInput.value) {
+      if (input.value) {
         helper.search();
       }
     }
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         next    : '<i class="fa fa-angle-right"></i>'
       },
       cssClasses: {
-        root        : 'pagination',
+        list        : ['pagination', 'algolia-pagination'],
         item        : 'pagination-item',
         link        : 'page-number',
         selectedItem: 'current',
@@ -97,16 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Handle and trigger popup window
   document.querySelectorAll('.popup-trigger').forEach(element => {
     element.addEventListener('click', () => {
-      document.body.style.overflow = 'hidden';
-      document.querySelector('.search-pop-overlay').classList.add('search-active');
-      document.querySelector('.search-input').focus();
+      document.body.classList.add('search-active');
+      setTimeout(() => input.focus(), 500);
     });
   });
 
   // Monitor main search box
   const onPopupClose = () => {
-    document.body.style.overflow = '';
-    document.querySelector('.search-pop-overlay').classList.remove('search-active');
+    document.body.classList.remove('search-active');
   };
 
   document.querySelector('.search-pop-overlay').addEventListener('click', event => {
@@ -115,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   document.querySelector('.popup-btn-close').addEventListener('click', onPopupClose);
-  window.addEventListener('pjax:success', onPopupClose);
+  document.addEventListener('pjax:success', onPopupClose);
   window.addEventListener('keyup', event => {
     if (event.key === 'Escape') {
       onPopupClose();
