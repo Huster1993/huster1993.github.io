@@ -1453,7 +1453,7 @@ pre code {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #def12e;
+  background: #0effff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1698,6 +1698,7 @@ pre code {
   color: #ff0000;
   display: inline-block;
   margin: 0 5px;
+  animation: icon-animate 1.33s ease-in-out infinite;
 }
 .powered-by,
 .theme-info {
@@ -1762,9 +1763,6 @@ pre code {
 .back-to-top {
   font-size: 12px;
 }
-.back-to-top span {
-  display: none;
-}
 .back-to-top {
   bottom: -100px;
   box-sizing: border-box;
@@ -1777,7 +1775,7 @@ pre code {
   position: fixed;
   z-index: 1300;
   left: 30px;
-  width: 24px;
+  width: initial;
 }
 @media (max-width: 991px) {
   .back-to-top {
