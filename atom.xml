@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Huster1993’s Blog</title>
-  <icon>http://zhengfei.life/icon.png</icon>
+  <icon>http://rainnot/icon.png</icon>
   <subtitle>日拱一卒</subtitle>
-  <link href="http://zhengfei.life/atom.xml" rel="self"/>
+  <link href="http://rainnot/atom.xml" rel="self"/>
   
-  <link href="http://zhengfei.life/"/>
+  <link href="http://rainnot/"/>
   <updated>2021-05-01T06:39:29.577Z</updated>
-  <id>http://zhengfei.life/</id>
+  <id>http://rainnot/</id>
   
   <author>
     <name>Huster1993</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>买床记</title>
-    <link href="http://zhengfei.life/2021/04/25/%E4%B9%B0%E5%BA%8A%E8%AE%B0/"/>
-    <id>http://zhengfei.life/2021/04/25/%E4%B9%B0%E5%BA%8A%E8%AE%B0/</id>
+    <link href="http://rainnot/posts/aa11294d.html"/>
+    <id>http://rainnot/posts/aa11294d.html</id>
     <published>2021-04-25T11:42:26.000Z</published>
     <updated>2021-05-01T06:39:29.577Z</updated>
     
@@ -28,21 +28,21 @@
     
     
     
-    <category term="装修模块" scheme="http://zhengfei.life/categories/%E8%A3%85%E4%BF%AE%E6%A8%A1%E5%9D%97/"/>
+    <category term="装修模块" scheme="http://rainnot/categories/%E8%A3%85%E4%BF%AE%E6%A8%A1%E5%9D%97/"/>
     
     
-    <category term="装修" scheme="http://zhengfei.life/tags/%E8%A3%85%E4%BF%AE/"/>
+    <category term="装修" scheme="http://rainnot/tags/%E8%A3%85%E4%BF%AE/"/>
     
-    <category term="改造" scheme="http://zhengfei.life/tags/%E6%94%B9%E9%80%A0/"/>
+    <category term="改造" scheme="http://rainnot/tags/%E6%94%B9%E9%80%A0/"/>
     
   </entry>
   
   <entry>
     <title>从《小狗钱钱》开始学习理财</title>
-    <link href="http://zhengfei.life/2021/04/24/%E4%BB%8E%E3%80%8A%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1%E3%80%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E7%90%86%E8%B4%A2/"/>
-    <id>http://zhengfei.life/2021/04/24/%E4%BB%8E%E3%80%8A%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1%E3%80%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E7%90%86%E8%B4%A2/</id>
+    <link href="http://rainnot/posts/8081279e.html"/>
+    <id>http://rainnot/posts/8081279e.html</id>
     <published>2021-04-24T15:21:52.000Z</published>
-    <updated>2021-04-25T12:11:39.978Z</updated>
+    <updated>2021-05-03T03:30:27.354Z</updated>
     
     
     <summary type="html">&lt;p&gt;这是好久之后重新写的第一篇文章，可能又是断断续续要写好久，总之，会一直写下去的，毕竟一直想写，总是没有提起笔。&lt;/p&gt;</summary>
@@ -50,16 +50,16 @@
     
     
     
-    <category term="理财" scheme="http://zhengfei.life/tags/%E7%90%86%E8%B4%A2/"/>
+    <category term="理财" scheme="http://rainnot/tags/%E7%90%86%E8%B4%A2/"/>
     
-    <category term="投资" scheme="http://zhengfei.life/tags/%E6%8A%95%E8%B5%84/"/>
+    <category term="投资" scheme="http://rainnot/tags/%E6%8A%95%E8%B5%84/"/>
     
   </entry>
   
   <entry>
     <title>房屋编舟记</title>
-    <link href="http://zhengfei.life/2020/06/28/%E6%88%BF%E5%B1%8B%E7%BC%96%E8%88%9F%E8%AE%B0/"/>
-    <id>http://zhengfei.life/2020/06/28/%E6%88%BF%E5%B1%8B%E7%BC%96%E8%88%9F%E8%AE%B0/</id>
+    <link href="http://rainnot/posts/8aff5a8.html"/>
+    <id>http://rainnot/posts/8aff5a8.html</id>
     <published>2020-06-27T22:21:51.909Z</published>
     <updated>2020-06-27T22:27:00.137Z</updated>
     
@@ -74,17 +74,17 @@
     
     
     
-    <category term="装修模块" scheme="http://zhengfei.life/categories/%E8%A3%85%E4%BF%AE%E6%A8%A1%E5%9D%97/"/>
+    <category term="装修模块" scheme="http://rainnot/categories/%E8%A3%85%E4%BF%AE%E6%A8%A1%E5%9D%97/"/>
     
     
-    <category term="装修" scheme="http://zhengfei.life/tags/%E8%A3%85%E4%BF%AE/"/>
+    <category term="装修" scheme="http://rainnot/tags/%E8%A3%85%E4%BF%AE/"/>
     
   </entry>
   
   <entry>
     <title>我在洛阳的日子</title>
-    <link href="http://zhengfei.life/2020/06/21/%E6%88%91%E5%9C%A8%E6%B4%9B%E9%98%B3%E7%9A%84%E6%97%A5%E5%AD%90/"/>
-    <id>http://zhengfei.life/2020/06/21/%E6%88%91%E5%9C%A8%E6%B4%9B%E9%98%B3%E7%9A%84%E6%97%A5%E5%AD%90/</id>
+    <link href="http://rainnot/posts/ddfeff4d.html"/>
+    <id>http://rainnot/posts/ddfeff4d.html</id>
     <published>2020-06-21T11:26:04.000Z</published>
     <updated>2021-04-25T12:07:22.060Z</updated>
     
@@ -96,17 +96,17 @@
     
     
     
-    <category term="示例" scheme="http://zhengfei.life/categories/%E7%A4%BA%E4%BE%8B/"/>
+    <category term="示例" scheme="http://rainnot/categories/%E7%A4%BA%E4%BE%8B/"/>
     
     
-    <category term="征文" scheme="http://zhengfei.life/tags/%E5%BE%81%E6%96%87/"/>
+    <category term="征文" scheme="http://rainnot/tags/%E5%BE%81%E6%96%87/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://zhengfei.life/2020/06/21/hello-world/"/>
-    <id>http://zhengfei.life/2020/06/21/hello-world/</id>
+    <link href="http://rainnot/posts/4a17b156.html"/>
+    <id>http://rainnot/posts/4a17b156.html</id>
     <published>2020-06-21T03:48:28.597Z</published>
     <updated>2021-04-24T15:27:21.764Z</updated>
     
@@ -116,9 +116,9 @@
     
     
     
-    <category term="简介" scheme="http://zhengfei.life/tags/%E7%AE%80%E4%BB%8B/"/>
+    <category term="简介" scheme="http://rainnot/tags/%E7%AE%80%E4%BB%8B/"/>
     
-    <category term="开篇" scheme="http://zhengfei.life/tags/%E5%BC%80%E7%AF%87/"/>
+    <category term="开篇" scheme="http://rainnot/tags/%E5%BC%80%E7%AF%87/"/>
     
   </entry>
   
