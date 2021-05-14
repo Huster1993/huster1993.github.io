@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2021-05-03T03:33:33.683Z</updated>
+  <updated>2021-05-14T06:55:38.071Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo新手使用指南</title>
+    <link href="http://rainnot/posts/c9ecb551.html"/>
+    <id>http://rainnot/posts/c9ecb551.html</id>
+    <published>2021-05-14T06:36:14.000Z</published>
+    <updated>2021-05-14T06:55:38.071Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hexo从无到有保姆级教程&quot;&gt;&lt;a href=&quot;#Hexo从无到有保姆级教程&quot; class=&quot;headerlink&quot; title=&quot;Hexo从无到有保姆级教程&quot;&gt;&lt;/a&gt;Hexo从无到有保姆级教程&lt;/h1&gt;&lt;h2 id=&quot;新建文章&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="指南" scheme="http://rainnot/categories/%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="hexo" scheme="http://rainnot/tags/hexo/"/>
+    
+    <category term="教程" scheme="http://rainnot/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>买床记</title>
