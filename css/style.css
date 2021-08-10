@@ -1299,7 +1299,7 @@ pre .javascript .function {
   white-space: nowrap;
 }
 .post-toc-wrap .post-toc .nav .nav-child {
-  display: block;
+  display: none;
 }
 .post-toc-wrap .post-toc .nav .active > .nav-child {
   display: block;
