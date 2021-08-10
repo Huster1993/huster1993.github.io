@@ -138,7 +138,7 @@
     <updated>2021-05-03T03:33:33.673Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Check &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/docs/&quot; &gt;documentation&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/docs/troubleshooting.html&quot; &gt;troubleshooting&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt; or you can ask me on &lt;a class=&quot;link&quot;   href=&quot;https://github.com/hexojs/hexo/issues&quot; &gt;GitHub&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
