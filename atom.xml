@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Huster1993’s Blog</title>
+  <title>RainNot’s Notes</title>
   <icon>http://rainnot/icon.png</icon>
   <subtitle>日拱一卒</subtitle>
   <link href="http://rainnot/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://rainnot/</id>
   
   <author>
-    <name>Huster1993</name>
+    <name>RainNot</name>
     
   </author>
   
