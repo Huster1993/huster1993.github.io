@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2022-03-06T04:33:39.422Z</updated>
+  <updated>2022-03-06T06:57:49.692Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://rainnot/posts/b66a9837.html"/>
     <id>http://rainnot/posts/b66a9837.html</id>
     <published>2022-03-06T04:27:25.942Z</published>
-    <updated>2022-03-06T04:33:39.422Z</updated>
+    <updated>2022-03-06T06:57:49.692Z</updated>
     
     
       
@@ -73,17 +73,19 @@
     <link href="http://rainnot/posts/fa0e3e39.html"/>
     <id>http://rainnot/posts/fa0e3e39.html</id>
     <published>2021-08-10T14:09:46.000Z</published>
-    <updated>2021-08-10T14:19:34.031Z</updated>
+    <updated>2022-03-06T06:57:51.513Z</updated>
     
     
     <summary type="html">&lt;p&gt;在windows环境下进行hexo博客的使用与维护一直是我想解决的问题，更新博客只能拿出我的mac来进行操作，非常不方便，下面对windows使用的一些细节进行阐述。&lt;/p&gt;</summary>
     
     
     
-    <category term="Hexo博客" scheme="http://rainnot/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="学习" scheme="http://rainnot/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="hexo" scheme="http://rainnot/tags/hexo/"/>
+    
+    <category term="Hexo" scheme="http://rainnot/tags/Hexo/"/>
     
     <category term="教程" scheme="http://rainnot/tags/%E6%95%99%E7%A8%8B/"/>
     
@@ -96,7 +98,7 @@
     <link href="http://rainnot/posts/f90cb51b.html"/>
     <id>http://rainnot/posts/f90cb51b.html</id>
     <published>2021-08-10T11:11:17.000Z</published>
-    <updated>2021-08-10T14:19:34.034Z</updated>
+    <updated>2022-03-06T06:57:51.504Z</updated>
     
     
       
@@ -109,10 +111,14 @@
     
     
     
-    <category term="Hexo博客" scheme="http://rainnot/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="学习" scheme="http://rainnot/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="hexo" scheme="http://rainnot/tags/hexo/"/>
+    
+    <category term="Hexo" scheme="http://rainnot/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://rainnot/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="主题" scheme="http://rainnot/tags/%E4%B8%BB%E9%A2%98/"/>
     
@@ -123,7 +129,7 @@
     <link href="http://rainnot/posts/c9ecb551.html"/>
     <id>http://rainnot/posts/c9ecb551.html</id>
     <published>2021-05-14T06:36:14.000Z</published>
-    <updated>2021-09-12T13:34:55.190Z</updated>
+    <updated>2022-03-06T06:57:51.479Z</updated>
     
     
       
@@ -136,12 +142,16 @@
     
     
     
-    <category term="hexo博客" scheme="http://rainnot/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="学习" scheme="http://rainnot/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="hexo" scheme="http://rainnot/tags/hexo/"/>
     
+    <category term="Hexo" scheme="http://rainnot/tags/Hexo/"/>
+    
     <category term="教程" scheme="http://rainnot/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="http://rainnot/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -150,14 +160,14 @@
     <link href="http://rainnot/posts/aa11294d.html"/>
     <id>http://rainnot/posts/aa11294d.html</id>
     <published>2021-04-25T11:42:26.000Z</published>
-    <updated>2021-05-03T03:33:33.683Z</updated>
+    <updated>2022-03-06T06:56:26.549Z</updated>
     
     
     <summary type="html">&lt;p&gt;货比三家之后，我的柜子打不开了&lt;/p&gt;</summary>
     
     
     
-    <category term="装修模块" scheme="http://rainnot/categories/%E8%A3%85%E4%BF%AE%E6%A8%A1%E5%9D%97/"/>
+    <category term="生活" scheme="http://rainnot/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
     <category term="装修" scheme="http://rainnot/tags/%E8%A3%85%E4%BF%AE/"/>
@@ -171,7 +181,7 @@
     <link href="http://rainnot/posts/8081279e.html"/>
     <id>http://rainnot/posts/8081279e.html</id>
     <published>2021-04-24T15:21:52.000Z</published>
-    <updated>2022-03-06T04:33:20.746Z</updated>
+    <updated>2022-03-06T06:54:13.107Z</updated>
     
     
     <summary type="html">&lt;p&gt;这是好久之后重新写的第一篇文章，可能又是断断续续要写好久，总之，会一直写下去的，毕竟一直想写，总是没有提起笔。&lt;/p&gt;</summary>
@@ -192,7 +202,7 @@
     <link href="http://rainnot/posts/8aff5a8.html"/>
     <id>http://rainnot/posts/8aff5a8.html</id>
     <published>2020-06-27T22:21:51.909Z</published>
-    <updated>2021-05-03T03:33:33.679Z</updated>
+    <updated>2022-03-06T06:57:51.496Z</updated>
     
     
       
@@ -205,7 +215,7 @@
     
     
     
-    <category term="装修模块" scheme="http://rainnot/categories/%E8%A3%85%E4%BF%AE%E6%A8%A1%E5%9D%97/"/>
+    <category term="生活" scheme="http://rainnot/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
     <category term="装修" scheme="http://rainnot/tags/%E8%A3%85%E4%BF%AE/"/>
@@ -217,7 +227,7 @@
     <link href="http://rainnot/posts/ddfeff4d.html"/>
     <id>http://rainnot/posts/ddfeff4d.html</id>
     <published>2020-06-21T11:26:04.000Z</published>
-    <updated>2021-08-10T14:18:45.342Z</updated>
+    <updated>2022-03-06T06:55:49.891Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -227,7 +237,7 @@
     
     
     
-    <category term="示例" scheme="http://rainnot/categories/%E7%A4%BA%E4%BE%8B/"/>
+    <category term="生活" scheme="http://rainnot/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
     <category term="征文" scheme="http://rainnot/tags/%E5%BE%81%E6%96%87/"/>
