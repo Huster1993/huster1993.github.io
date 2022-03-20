@@ -9,7 +9,7 @@
     
     <title>
         
-            hexo保姆级教程 |
+            Hexo从无到有保姆级教程 |
         
         RainNot&#39;s Notes
     </title>
@@ -171,7 +171,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">hexo保姆级教程</span>
+            <span class="title-hover-animation">Hexo从无到有保姆级教程</span>
         </div>
 
         
@@ -231,7 +231,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>50 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>243 字</span>
         </span>
     
     
@@ -252,17 +252,35 @@
         
 
         <div class="article-content markdown-body">
-            <h1 id="Hexo从无到有保姆级教程"><a href="#Hexo从无到有保姆级教程" class="headerlink" title="Hexo从无到有保姆级教程"></a>Hexo从无到有保姆级教程</h1><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><p>输入</p>
+            <p>[toc]</p>
+<h1 id="在macOS系统下进行配置"><a href="#在macOS系统下进行配置" class="headerlink" title="在macOS系统下进行配置"></a>在macOS系统下进行配置</h1><h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><h1 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h1><h2 id="进入博客文件夹"><a href="#进入博客文件夹" class="headerlink" title="进入博客文件夹"></a>进入博客文件夹</h2><p>首先打开终端，cd到博客文件夹，我的文件夹在根目录的<code>myblog</code>文件夹中，因此我的代码是</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd myblog</span><br></pre></td></tr></table></figure>
+<p>此时你可以看到如下界面</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Last login: Sun Mar 20 16:20:37 on ttys000</span><br><span class="line">complete:13: command not found: compdef</span><br><span class="line">zhengfei@zhengfeideAir ~ % cd myblog</span><br><span class="line">zhengfei@zhengfeideAir myblog % </span><br></pre></td></tr></table></figure>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://tuchaung-huster.oss-cn-beijing.aliyuncs.com/MWeb/2022/03/20/16477645015798.jpg?x-oss-process=image/auto-orient,1/quality,q_90"
+                      alt="图1 终端显示界面"
+                ></p>
+<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><p>可以新建名为<code>title.md</code>文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure>
-<p>可以新建名为<code>title</code>的<code>.md</code>文件，使用markdown写作工具进行编辑即可。</p>
-<h2 id="新建页面"><a href="#新建页面" class="headerlink" title="新建页面"></a>新建页面</h2>
+<p>完成后，可以看到在<code>myblog-&gt;source-&gt;_posts</code>文件夹中看到名为<code>title.md</code>的文件，使用markdown写作工具对其进行编辑即可。<br>我通常会使用<code>MWeb</code>外部文档库模式进行编辑。</p>
+<h2 id="发布文章到github"><a href="#发布文章到github" class="headerlink" title="发布文章到github"></a>发布文章到github</h2><p>编辑完成后，如果需要发布到github，通常先生成页面<code>g（generate）</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<p>然后进行推送<code>d(deploy)</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>或者两者一起进行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<p>一起使用，等待一会儿就可以看到已经发布到github了。</p>
+
         </div>
 
         
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li>本文标题：hexo保姆级教程</li>
+        <li>本文标题：Hexo从无到有保姆级教程</li>
         <li>本文作者：RainNot</li>
         <li>创建时间：2021-05-14 14:36:14</li>
         <li>
@@ -520,7 +538,7 @@
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E4%BB%8E%E6%97%A0%E5%88%B0%E6%9C%89%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B"><span class="nav-text">Hexo从无到有保姆级教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0"><span class="nav-text">新建文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E9%A1%B5%E9%9D%A2"><span class="nav-text">新建页面</span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8macOS%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE"><span class="nav-text">在macOS系统下进行配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83"><span class="nav-text">配置环境</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0"><span class="nav-text">发布文章</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%9B%E5%85%A5%E5%8D%9A%E5%AE%A2%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-text">进入博客文件夹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0"><span class="nav-text">新建文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E5%88%B0github"><span class="nav-text">发布文章到github</span></a></li></ol></li></ol>
     </div>
 </div>
         </aside>
