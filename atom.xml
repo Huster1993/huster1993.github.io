@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2022-04-17T03:25:20.629Z</updated>
+  <updated>2022-04-17T03:52:43.725Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://rainnot/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
     <id>http://rainnot/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/</id>
     <published>2022-04-17T02:18:41.000Z</published>
-    <updated>2022-04-17T03:25:20.629Z</updated>
+    <updated>2022-04-17T03:52:43.725Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;安卓端可以通过zoo for zotero&lt;sup</summary>
+    <summary type="html">&lt;p&gt;安卓端可以通过zoo for zotero&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;软件，ios端可以通过papership&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a</summary>
         
       
     
@@ -49,7 +49,10 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+    <summary type="html">&lt;p&gt;本文的目的在于监督自己翻译《用macOS实现认知生产力–让知识变聪明的7个原则》这本书，通过这本书的翻译，给自己一个目标，希望能够达到以下几点效果。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;学习本书，理解本书的基本内容；&lt;/li&gt;
+&lt;li&gt;熟悉英文写作的一些表达，培养阅读英文文献的习惯；</summary>
         
       
     
@@ -78,7 +81,10 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1 id=&quot;折腾笔记&quot;&gt;&lt;a href=&quot;#折腾笔记&quot;</summary>
+    <summary type="html">&lt;h1&gt;折腾笔记&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;微信公众号或者知乎，或者头条拥有 100 个粉丝&lt;/li&gt;
+&lt;li&gt;稿费挣到 ¥1000</summary>
         
       
     
@@ -107,8 +113,13 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;需要达到下面说的这些功能，首先就是需要进行&lt;/p&gt;
-&lt;h1</summary>
+    <summary type="html">&lt;p&gt;需要达到下面说的这些功能，首先就是需要进行&lt;/p&gt;
+&lt;h1&gt;影音系统&lt;/h1&gt;
+&lt;p&gt;购入清单：SONY&lt;br&gt;
+video station&lt;br&gt;
+plex&lt;br&gt;
+KODI+Plex&lt;br&gt;
+apple TV +</summary>
         
       
     
@@ -162,7 +173,8 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h3 id=&quot;测试一下公式效果&quot;&gt;&lt;a href=&quot;#测试一下公式效果&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;测试一下公式效果&quot;&gt;测试一下公式效果&lt;/h3&gt;
+&lt;p&gt;&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot;&gt;&lt;svg style=&quot;vertical-align: -0.464ex&quot;</summary>
         
       
     
@@ -193,8 +205,11 @@
       
         
         
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;[toc]&lt;/p&gt;
-&lt;h1 id=&quot;在macOS系统下进行配置&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;[toc]&lt;/p&gt;
+&lt;h1&gt;在macOS系统下进行配置&lt;/h1&gt;
+&lt;h2 id=&quot;配置环境&quot;&gt;配置环境&lt;/h2&gt;
+&lt;h1&gt;发布文章&lt;/h1&gt;
+&lt;h2</summary>
         
       
     
@@ -266,7 +281,8 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;讲述作为普通员工与公司共成长的心路历程或感人故事&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;2016年，夏，我离开西安，登上了开往洛阳的列车。&lt;br&gt;那时的我还不知道，此后的四个夏天，洛阳的阳光始终洒在我的身上，也包括深夜车棚里的路灯。&lt;/p&gt;</summary>
+&lt;p&gt;2016年，夏，我离开西安，登上了开往洛阳的列车。&lt;br&gt;
+那时的我还不知道，此后的四个夏天，洛阳的阳光始终洒在我的身上，也包括深夜车棚里的路灯。&lt;/p&gt;</summary>
     
     
     
