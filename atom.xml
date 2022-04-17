@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2022-03-20T04:31:31.034Z</updated>
+  <updated>2022-04-17T02:21:23.513Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试一下脚注的功能</title>
+    <link href="http://rainnot/posts/2388f122.html"/>
+    <id>http://rainnot/posts/2388f122.html</id>
+    <published>2022-04-17T02:18:41.000Z</published>
+    <updated>2022-04-17T02:21:23.513Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;安卓端可以通过zoo for zotero[^1]软件，ios端可以通过papership[^2]阅读zotero中的文献，也可以利用zotfile插件的Send to</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>用macOS实现认知生产力--让知识变聪明的7个原则</title>
