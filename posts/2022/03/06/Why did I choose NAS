@@ -9,7 +9,7 @@
     
     <title>
         
-            用macOS实现认知生产力--让知识变聪明的7个原则 |
+            我当初为什么选择了NAS |
         
         RainNot&#39;s Notes
     </title>
@@ -283,7 +283,7 @@ mjx-container[display="true"] + br {
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">用macOS实现认知生产力--让知识变聪明的7个原则</span>
+            <span class="title-hover-animation">我当初为什么选择了NAS</span>
         </div>
 
         
@@ -301,7 +301,7 @@ mjx-container[display="true"] + br {
                     <div class="meta-info">
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2022-03-20 12:12:16
+        <i class="fas fa-edit"></i>&nbsp;2022-03-06 11:11:32
     </span>
     
         <span class="article-categories article-meta-item">
@@ -309,7 +309,7 @@ mjx-container[display="true"] + br {
             <ul>
                 
                     <li>
-                        <a href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>&nbsp;
+                        <a href="/categories/%E7%94%9F%E6%B4%BB/">生活</a>&nbsp;
                     </li>
                 
             </ul>
@@ -321,15 +321,15 @@ mjx-container[display="true"] + br {
             <ul>
                 
                     <li>
-                        <a href="/tags/macOS/">macOS</a>&nbsp;
+                        <a href="/tags/NAS/">NAS</a>&nbsp;
                     </li>
                 
                     <li>
-                        | <a href="/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B/">生产力</a>&nbsp;
+                        | <a href="/tags/%E6%95%B0%E7%A0%81/">数码</a>&nbsp;
                     </li>
                 
                     <li>
-                        | <a href="/tags/%E7%BF%BB%E8%AF%91/">翻译</a>&nbsp;
+                        | <a href="/tags/%E7%8E%A9%E6%9C%BA/">玩机</a>&nbsp;
                     </li>
                 
             </ul>
@@ -339,7 +339,7 @@ mjx-container[display="true"] + br {
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>250 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>84 字</span>
         </span>
     
     
@@ -360,16 +360,18 @@ mjx-container[display="true"] + br {
         
 
         <div class="article-content markdown-body">
-            <p>本文的目的在于监督自己翻译《用macOS实现认知生产力–让知识变聪明的7个原则》这本书，通过这本书的翻译，给自己一个目标，希望能够达到以下几点效果。</p>
-<ol>
-<li>学习本书，理解本书的基本内容；</li>
-<li>熟悉英文写作的一些表达，培养阅读英文文献的习惯；</li>
-<li>持之以恒，培养坚持的一种品格；</li>
-<li>通过拓展思路，形成自己对于认知生产力或者说知识输入与输出之间的成熟思想；</li>
-<li>培养自己写作能力。</li>
+            <p>需要达到下面说的这些功能，首先就是需要进行</p>
+<h1 id="影音系统"><a href="#影音系统" class="headerlink" title="影音系统"></a>影音系统</h1><p>购入清单：SONY<br>video station<br>plex<br>KODI+Plex<br>apple TV + infuse</p>
+<h1 id="文件备份"><a href="#文件备份" class="headerlink" title="文件备份"></a>文件备份</h1><ol>
+<li>照片</li>
+<li>文档</li>
+<li>学习教程</li>
+<li>PT站保种</li>
+<li>协同办公</li>
+<li>Wordpress网站</li>
+<li>主要是备份小王的照片（需要耐心交流）</li>
+<li>笔记，日记或者Bitwass密码管理器</li>
 </ol>
-<p>献给所有的研究者、软件设计师、工程师、质量安全师、管理者、学术型作者、记者，还有哪些本书中那些优秀软件的贡献者。<br>[TOC]</p>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="关于这本书的相关录像以及其他资料"><a href="#关于这本书的相关录像以及其他资料" class="headerlink" title="关于这本书的相关录像以及其他资料"></a>关于这本书的相关录像以及其他资料</h2><p>亲爱的读者：<br>感谢您购买《用macOS实现认知生产力–让知识变聪明的7个原则》。</p>
 
         </div>
 
@@ -377,11 +379,11 @@ mjx-container[display="true"] + br {
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li>本文标题：用macOS实现认知生产力--让知识变聪明的7个原则</li>
+        <li>本文标题：我当初为什么选择了NAS</li>
         <li>本文作者：RainNot</li>
-        <li>创建时间：2022-03-20 12:12:16</li>
+        <li>创建时间：2022-03-06 11:11:32</li>
         <li>
-            本文链接：https://rainnot.com/posts/2022/03/20/Cognitive-Productivity-with-macOS-用macOS实现认知生产力/
+            本文链接：https://rainnot.com/posts/2022/03/06/Why did I choose NAS?/
         </li>
         <li>
             版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -398,13 +400,13 @@ mjx-container[display="true"] + br {
                     <div class="article-prev">
                         <a class="prev"
                            rel="prev"
-                           href="/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/"
+                           href="/posts/2022/03/06/Start%20with%20setting%20small%20goals%20and%20efficiently%20manage%20my%202022./"
                         >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">测试一下脚注的功能</span>
+                                <span class="post-nav-title-item">从定好小目标开始，高效管理我的2022年</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
                         </a>
@@ -414,10 +416,10 @@ mjx-container[display="true"] + br {
                     <div class="article-next">
                         <a class="next"
                            rel="next"
-                           href="/posts/2022/03/06/%E4%BB%8E%E5%AE%9A%E5%A5%BD%E5%B0%8F%E7%9B%AE%E6%A0%87%E5%BC%80%E5%A7%8B%EF%BC%8C%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E6%88%91%E7%9A%842022%E5%B9%B4/"
+                           href="/posts/2021/08/10/Hexo%20blog%20maintenance%20in%20Windows%20environment/"
                         >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">从定好小目标开始，高效管理我的2022年</span>
+                                <span class="post-nav-title-item">Windows环境下进行hexo博客维护</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex-center">
@@ -635,7 +637,7 @@ mjx-container[display="true"] + br {
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%BF%99%E6%9C%AC%E4%B9%A6%E7%9A%84%E7%9B%B8%E5%85%B3%E5%BD%95%E5%83%8F%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99"><span class="nav-text">关于这本书的相关录像以及其他资料</span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BD%B1%E9%9F%B3%E7%B3%BB%E7%BB%9F"><span class="nav-text">影音系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD"><span class="nav-text">文件备份</span></a></li></ol>
     </div>
 </div>
         </aside>
