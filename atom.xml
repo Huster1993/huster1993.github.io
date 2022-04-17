@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>RainNot’s Notes</title>
+  <title>RainNot</title>
   <icon>http://rainnot/icon.png</icon>
   <subtitle>日拱一卒</subtitle>
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2022-04-17T06:08:57.156Z</updated>
+  <updated>2022-04-17T06:23:24.272Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://rainnot/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
     <id>http://rainnot/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/</id>
     <published>2022-04-17T02:18:41.000Z</published>
-    <updated>2022-04-17T06:08:57.156Z</updated>
+    <updated>2022-04-17T06:23:24.272Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;安卓端可以通过zoo for zotero&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;软件，ios端可以通过papership&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;安卓端可以通过 &lt;code&gt;zoo for zotero&lt;/code&gt; &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot;</summary>
         
       
     
