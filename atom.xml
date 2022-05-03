@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2022-04-17T06:23:24.272Z</updated>
+  <updated>2022-05-03T10:32:19.359Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阅读《文城》</title>
+    <link href="http://rainnot/posts/2022/05/03/%E9%98%85%E8%AF%BB%E3%80%8A%E6%96%87%E5%9F%8E%E3%80%8B/"/>
+    <id>http://rainnot/posts/2022/05/03/%E9%98%85%E8%AF%BB%E3%80%8A%E6%96%87%E5%9F%8E%E3%80%8B/</id>
+    <published>2022-05-03T09:57:45.000Z</published>
+    <updated>2022-05-03T10:32:19.359Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://rainnot/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="阅读" scheme="http://rainnot/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="读书笔记" scheme="http://rainnot/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>测试一下脚注的功能</title>
