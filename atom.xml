@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2022-06-04T04:00:53.400Z</updated>
+  <updated>2023-01-15T14:09:45.258Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我对博客的一点想法</title>
+    <link href="http://rainnot/posts/2023/01/15/%E6%88%91%E5%AF%B9%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E6%83%B3%E6%B3%95/"/>
+    <id>http://rainnot/posts/2023/01/15/%E6%88%91%E5%AF%B9%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E6%83%B3%E6%B3%95/</id>
+    <published>2023-01-15T14:08:22.000Z</published>
+    <updated>2023-01-15T14:09:45.258Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天早上我在整理我的iPad文件的时候，发现了这个域名管理，现在还是有点混乱，要说混乱其实也不混乱，&lt;a href=&quot;rainnot.com&quot;&gt;使用github静态页面管理的博客&lt;/a&gt;，&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://rainnot/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Hexo" scheme="http://rainnot/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://rainnot/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>我用什么来进行知识管理</title>
