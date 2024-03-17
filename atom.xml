@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2023-01-15T14:09:45.258Z</updated>
+  <updated>2024-03-17T14:43:40.210Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2024年阅读计划</title>
+    <link href="http://rainnot/posts/2024/03/17/2024%E5%B9%B4%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%92/"/>
+    <id>http://rainnot/posts/2024/03/17/2024%E5%B9%B4%E9%98%85%E8%AF%BB%E8%AE%A1%E5%88%92/</id>
+    <published>2024-03-17T14:39:40.000Z</published>
+    <updated>2024-03-17T14:43:40.210Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;首先是文明系列；&lt;br&gt;
+《明朝那些事儿》，了解一下明朝的历史；&lt;br&gt;
+《三体》全集；&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="阅读" scheme="http://rainnot/categories/%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="2024" scheme="http://rainnot/tags/2024/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我对博客的一点想法</title>
     <link href="http://rainnot/posts/2023/01/15/%E6%88%91%E5%AF%B9%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E6%83%B3%E6%B3%95/"/>
     <id>http://rainnot/posts/2023/01/15/%E6%88%91%E5%AF%B9%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E7%82%B9%E6%83%B3%E6%B3%95/</id>
     <published>2023-01-15T14:08:22.000Z</published>
-    <updated>2023-01-15T14:09:45.258Z</updated>
+    <updated>2023-01-15T14:09:45.000Z</updated>
     
     
       
@@ -48,7 +76,7 @@
     <link href="http://rainnot/posts/2022/06/04/%E6%88%91%E7%94%A8%E4%BB%80%E4%B9%88%E6%9D%A5%E8%BF%9B%E8%A1%8C%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
     <id>http://rainnot/posts/2022/06/04/%E6%88%91%E7%94%A8%E4%BB%80%E4%B9%88%E6%9D%A5%E8%BF%9B%E8%A1%8C%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</id>
     <published>2022-06-04T02:19:54.000Z</published>
-    <updated>2022-06-04T04:00:53.400Z</updated>
+    <updated>2022-06-04T04:00:53.000Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
@@ -71,7 +99,7 @@
     <link href="http://rainnot/posts/2022/05/15/%E8%AF%BB%E6%8A%A5%E7%BA%B8%E7%9A%84%E4%BA%BA/"/>
     <id>http://rainnot/posts/2022/05/15/%E8%AF%BB%E6%8A%A5%E7%BA%B8%E7%9A%84%E4%BA%BA/</id>
     <published>2022-05-15T03:05:27.000Z</published>
-    <updated>2022-05-15T03:21:54.696Z</updated>
+    <updated>2022-05-15T03:21:54.000Z</updated>
     
     
       
@@ -95,7 +123,7 @@
     <link href="http://rainnot/posts/2022/05/03/%E9%98%85%E8%AF%BB%E3%80%8A%E6%96%87%E5%9F%8E%E3%80%8B/"/>
     <id>http://rainnot/posts/2022/05/03/%E9%98%85%E8%AF%BB%E3%80%8A%E6%96%87%E5%9F%8E%E3%80%8B/</id>
     <published>2022-05-03T09:57:45.000Z</published>
-    <updated>2022-05-03T10:43:11.676Z</updated>
+    <updated>2022-05-03T10:43:11.000Z</updated>
     
     
       
@@ -122,7 +150,7 @@
     <link href="http://rainnot/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
     <id>http://rainnot/posts/2022/04/17/%E6%B5%8B%E8%AF%95%E8%84%9A%E6%B3%A8%E7%9A%84%E5%8A%9F%E8%83%BD/</id>
     <published>2022-04-17T02:18:41.000Z</published>
-    <updated>2022-04-17T06:23:24.272Z</updated>
+    <updated>2023-01-19T08:19:38.000Z</updated>
     
     
       
@@ -143,7 +171,7 @@
     <link href="http://rainnot/posts/2022/03/20/Cognitive-Productivity-with-macOS/"/>
     <id>http://rainnot/posts/2022/03/20/Cognitive-Productivity-with-macOS/</id>
     <published>2022-03-20T04:12:16.000Z</published>
-    <updated>2022-03-20T04:31:31.034Z</updated>
+    <updated>2022-03-20T04:31:31.000Z</updated>
     
     
       
@@ -175,7 +203,7 @@
     <link href="http://rainnot/posts/2022/03/06/%E4%BB%8E%E5%AE%9A%E5%A5%BD%E5%B0%8F%E7%9B%AE%E6%A0%87%E5%BC%80%E5%A7%8B%EF%BC%8C%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E6%88%91%E7%9A%842022%E5%B9%B4/"/>
     <id>http://rainnot/posts/2022/03/06/%E4%BB%8E%E5%AE%9A%E5%A5%BD%E5%B0%8F%E7%9B%AE%E6%A0%87%E5%BC%80%E5%A7%8B%EF%BC%8C%E9%AB%98%E6%95%88%E7%AE%A1%E7%90%86%E6%88%91%E7%9A%842022%E5%B9%B4/</id>
     <published>2022-03-06T04:27:25.000Z</published>
-    <updated>2022-03-06T07:07:20.482Z</updated>
+    <updated>2022-03-06T07:07:20.000Z</updated>
     
     
       
@@ -207,7 +235,7 @@
     <link href="http://rainnot/posts/2022/03/06/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E4%BA%86NAS/"/>
     <id>http://rainnot/posts/2022/03/06/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E4%BA%86NAS/</id>
     <published>2022-03-06T03:11:32.000Z</published>
-    <updated>2022-03-06T06:26:21.216Z</updated>
+    <updated>2022-03-06T06:26:21.000Z</updated>
     
     
       
@@ -242,7 +270,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2021/08/10/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%9B%E8%A1%8Chexo%E5%8D%9A%E5%AE%A2%E7%BB%B4%E6%8A%A4/"/>
     <id>http://rainnot/posts/2021/08/10/Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%9B%E8%A1%8Chexo%E5%8D%9A%E5%AE%A2%E7%BB%B4%E6%8A%A4/</id>
     <published>2021-08-10T14:09:46.000Z</published>
-    <updated>2022-03-06T06:57:51.513Z</updated>
+    <updated>2022-03-06T06:57:51.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;在windows环境下进行hexo博客的使用与维护一直是我想解决的问题，更新博客只能拿出我的mac来进行操作，非常不方便，下面对windows使用的一些细节进行阐述。&lt;/p&gt;</summary>
@@ -267,7 +295,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2021/08/10/%E6%9B%BF%E6%8D%A2%E4%B8%BB%E9%A2%98%E4%B8%BAkeep/"/>
     <id>http://rainnot/posts/2021/08/10/%E6%9B%BF%E6%8D%A2%E4%B8%BB%E9%A2%98%E4%B8%BAkeep/</id>
     <published>2021-08-10T11:11:17.000Z</published>
-    <updated>2022-04-17T05:13:26.433Z</updated>
+    <updated>2022-04-17T05:13:26.000Z</updated>
     
     
       
@@ -300,7 +328,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2021/05/14/hexo%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E4%BB%8E%E6%97%A0%E5%88%B0%E6%9C%89/"/>
     <id>http://rainnot/posts/2021/05/14/hexo%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E4%BB%8E%E6%97%A0%E5%88%B0%E6%9C%89/</id>
     <published>2021-05-14T06:36:14.000Z</published>
-    <updated>2022-04-17T05:37:40.759Z</updated>
+    <updated>2022-04-17T05:37:40.000Z</updated>
     
     
       
@@ -335,7 +363,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2021/04/25/%E4%B9%B0%E5%BA%8A%E8%AE%B0/"/>
     <id>http://rainnot/posts/2021/04/25/%E4%B9%B0%E5%BA%8A%E8%AE%B0/</id>
     <published>2021-04-25T11:42:26.000Z</published>
-    <updated>2022-03-06T06:56:26.549Z</updated>
+    <updated>2022-03-06T06:56:26.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;货比三家之后，我的柜子打不开了&lt;/p&gt;</summary>
@@ -356,7 +384,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2021/04/24/%E4%BB%8E%E3%80%8A%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1%E3%80%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E7%90%86%E8%B4%A2/"/>
     <id>http://rainnot/posts/2021/04/24/%E4%BB%8E%E3%80%8A%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1%E3%80%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E7%90%86%E8%B4%A2/</id>
     <published>2021-04-24T15:21:52.000Z</published>
-    <updated>2022-03-20T08:14:09.503Z</updated>
+    <updated>2022-03-20T08:14:09.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;当觉得自己的财务状况需要改善之后，我努力寻找着一些改变，对自己的财务状况进行科学的规划，从而通往财富自由之路。&lt;/p&gt;</summary>
@@ -377,7 +405,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2020/06/21/%E6%88%91%E5%9C%A8%E6%B4%9B%E9%98%B3%E7%9A%84%E6%97%A5%E5%AD%90/"/>
     <id>http://rainnot/posts/2020/06/21/%E6%88%91%E5%9C%A8%E6%B4%9B%E9%98%B3%E7%9A%84%E6%97%A5%E5%AD%90/</id>
     <published>2020-06-21T11:26:04.000Z</published>
-    <updated>2022-03-06T06:55:49.891Z</updated>
+    <updated>2022-03-06T06:55:49.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -400,7 +428,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2020/06/21/hello-world/"/>
     <id>http://rainnot/posts/2020/06/21/hello-world/</id>
     <published>2020-06-21T03:48:28.597Z</published>
-    <updated>2021-05-03T03:33:33.673Z</updated>
+    <updated>2021-05-03T03:33:33.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Check &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/docs/&quot; &gt;documentation&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/docs/troubleshooting.html&quot; &gt;troubleshooting&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt; or you can ask me on &lt;a class=&quot;link&quot;   href=&quot;https://github.com/hexojs/hexo/issues&quot; &gt;GitHub&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;</summary>
