@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2024-12-08T09:56:47.608Z</updated>
+  <updated>2024-12-08T10:45:28.694Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>blog_thinking_again</title>
+    <link href="http://rainnot/posts/2024/12/08/blog-thinking-again/"/>
+    <id>http://rainnot/posts/2024/12/08/blog-thinking-again/</id>
+    <published>2024-12-08T10:45:28.000Z</published>
+    <updated>2024-12-08T10:45:28.694Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>通过WebDav实现全平台的Zotero附件同步</title>
@@ -392,7 +405,7 @@ apple TV +</summary>
     <link href="http://rainnot/posts/2021/04/25/buy_bed/"/>
     <id>http://rainnot/posts/2021/04/25/buy_bed/</id>
     <published>2021-04-25T11:42:26.000Z</published>
-    <updated>2022-03-06T06:56:26.000Z</updated>
+    <updated>2024-12-08T10:43:36.482Z</updated>
     
     
     <summary type="html">&lt;p&gt;货比三家之后，我的柜子打不开了&lt;/p&gt;</summary>

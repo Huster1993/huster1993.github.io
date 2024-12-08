@@ -174,13 +174,91 @@
         <div class="page-template-content markdown-body">
             
                 <p>这是一个特定的页面，用来介绍我这个网站和我自己。</p>
-<p>一时兴起花来一个上午加晚上的时间来完成这个网站的设置，起初只是想有一个长期的地方用来写作，记录自己在工作学习中的感悟，现在也是这样，毕竟昨天刚搭建完成。</p>
+<p>一时兴起花来一个上午加晚上的时间来完成这个网站的设置，起初只是想有一个长期的地方用来写作，记录自己在工作学习中的感悟，现在也是这样，毕竟昨天（2020年06月20日）刚搭建完成。</p>
 <p>应该会写一些短文或者啥的，谁知道呢，一直说想要写东西，到现在连一个像样的东西都没有写出来，公司征文倒是写了一篇，但那篇文章本来可以更好的，时间上有点来不及，规划的六章，现在也被压缩成了四个小段，这主要是和我自己的懒惰有关。</p>
-<p>长期坚持其实是一件很难的事情，我一直信奉“坚持是一种品格”这句话。日拱一卒，Arch a pawn a day!</p>
+<p>知识需要沉淀，长期坚持其实是一件很难的事情，我一直信奉“坚持是一种品格”这句话。</p>
+<p>日拱一卒，Arch a pawn a day!</p>
 
             
         </div>
         <div class="page-template-comments">
+            
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments">&nbsp;评论</i>
+    </div>
+    
+
+        
+            
+    <div class="valine-container">
+        <script data-pjax
+                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <div id="vcomments"></div>
+        <script data-pjax>
+            function loadValine() {
+                new Valine({
+                    el: '#vcomments',
+                    appId: 'lsaMLPzKppCGLDxB9JVN1n2k-gzGzoHsz',
+                    appKey: 'AJn67Ubs4zRSYyuktVcxOXyv',
+                    meta: ['nick', 'mail', 'link'],
+                    avatar: 'wavatar',
+                    enableQQ: true,
+                    placeholder: '在这里留下你的想法吧～～～',
+                    lang: 'zh-CN'.toLowerCase()
+                });
+
+                function getAuthor(language) {
+                    switch (language) {
+                        case 'en':
+                            return 'Author';
+                        case 'zh-CN':
+                            return '博主';
+                        default:
+                            return 'Master';
+                    }
+                }
+
+                // Add "Author" identify
+                const getValineDomTimer = setInterval(() => {
+                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+                    if (vcards.length > 0) {
+                        let author = 'RainNot';
+
+                        if (author) {
+                            for (let vcard of vcards) {
+                                const vnick_dom = vcard.querySelector('.vhead .vnick');
+                                const vnick = vnick_dom.innerHTML;
+                                if (vnick === author) {
+                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                                }
+                            }
+                        }
+                        clearInterval(getValineDomTimer);
+                    } else {
+                        clearInterval(getValineDomTimer);
+                    }
+                }, 2000);
+            }
+
+            if ('true') {
+                const loadValineTimeout = setTimeout(() => {
+                    loadValine();
+                    clearTimeout(loadValineTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadValine);
+            }
+        </script>
+    </div>
+
+
+
+        
+    
+</div>
+
             
         </div>
     </div>
