@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2024-12-08T09:56:47.608Z</updated>
+  <updated>2024-12-08T11:09:41.694Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>blog_thinking_again</title>
+    <link href="http://rainnot/posts/2024/12/08/blog-thinking-again/"/>
+    <id>http://rainnot/posts/2024/12/08/blog-thinking-again/</id>
+    <published>2024-12-08T10:56:34.000Z</published>
+    <updated>2024-12-08T11:09:41.694Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;知识是需要沉淀的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今天重新设置好了这个blog的推送路径，对于想要输入和输出的欲望也更加高涨，因此重新搞了一些这个博客，&lt;code&gt;rainnot.com&lt;/code&gt;和&lt;code&gt;zhengfei.lif</summary>
+        
+      
+    
+    
+    
+    <category term="生活感悟" scheme="http://rainnot/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+    
+    
+    <category term="博客" scheme="http://rainnot/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="写作" scheme="http://rainnot/tags/%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>通过WebDav实现全平台的Zotero附件同步</title>
