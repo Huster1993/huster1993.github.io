@@ -6,7 +6,7 @@
   <link href="http://rainnot/atom.xml" rel="self"/>
   
   <link href="http://rainnot/"/>
-  <updated>2024-12-08T10:45:28.694Z</updated>
+  <updated>2024-12-08T09:56:47.608Z</updated>
   <id>http://rainnot/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>blog_thinking_again</title>
-    <link href="http://rainnot/posts/2024/12/08/blog-thinking-again/"/>
-    <id>http://rainnot/posts/2024/12/08/blog-thinking-again/</id>
-    <published>2024-12-08T10:45:28.000Z</published>
-    <updated>2024-12-08T10:45:28.694Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>通过WebDav实现全平台的Zotero附件同步</title>
