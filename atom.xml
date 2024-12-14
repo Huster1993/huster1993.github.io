@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>RainNot</title>
   <icon>http://rainnot.com/icon.png</icon>
-  <subtitle>日拱一卒</subtitle>
+  <subtitle>日拱一卒,feedId:84227756870042624+userId:78264353575419904</subtitle>
   <link href="http://rainnot.com/atom.xml" rel="self"/>
   
   <link href="http://rainnot.com/"/>
