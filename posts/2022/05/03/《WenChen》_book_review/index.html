@@ -1,135 +1,1057 @@
-.page-container {
-  width: 100%;
-  height: auto;
-  background: var(--background-color-1);
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="feedId:84227756870042624+userId:78264353575419904">
+    <meta name="author" content="RainNot">
+    
+    <title>
+        
+            阅读《文城》 |
+        
+        RainNot
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/touxiang.jpg">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"rainnot.com","root":"/","language":"zh-CN","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"RainNot","author":"RainNot","avatar":"/images/touxiang.jpg","logo":"/images/touxiang.jpg","favicon":"/images/touxiang.jpg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","categories":"/categories","links":"/links","about":"/about"},"first_screen":{"enable":true,"background_img":"/images/bg.jpg","background_img_dark":"/images/bg.svg","description":"永远开心！不断前进！ || Don't Worry,Be Happy!","hitokoto":false},"social_contact":{"enable":true,"links":{"github":"https://github.com/Huster1993","weixin":null,"qq":null,"weibo":"https://weibo.com/2779397617/profile?topnav=1&wvr=6","zhihu":"https://www.zhihu.com/people/meng-meng-de-tai-deng","twitter":null,"x":null,"facebook":null,"email":"853433581@qq.com"}},"scroll":{"progress_bar":true,"percent":true,"hide_header":false},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":["初出茅庐","登堂入室","炉火纯青","返璞归真","超凡入圣","羽化登仙"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY年MM月DD日 HH:mm","created_datetime_icon":"fa-solid fa-star","updated_datetime_icon":"fa-solid fa-arrows-rotate","copyright_info":true,"share":true,"reward":{"enable":true,"img_link":null,"text":null,"icon":null},"img_align":"center"},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":false,"layout":"left"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"lsaMLPzKppCGLDxB9JVN1n2k-gzGzoHsz","appkey":"AJn67Ubs4zRSYyuktVcxOXyv","server_urls":null,"placeholder":"在这里留下你的想法吧~~~"},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":true},"lazyload":{"enable":true},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":true},"footer":{"since":2020,"word_count":true,"site_deploy":{"enable":true,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.2.5"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
 }
-.page-container .page-main-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-  padding-top: var(--header-height);
-keep-tablet()
-keep-mobile()
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
 }
-.page-container .page-main-content.is-home .transparent-1 {
-  background: var(--header-transparent-background-1);
-  -webkit-backdrop-filter: blur(var(--header-backdrop-filter-blur));
-  backdrop-filter: blur(var(--header-backdrop-filter-blur));
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
 }
-.page-container .page-main-content.is-home .transparent-2 {
-  background: var(--header-transparent-background-2);
-  -webkit-backdrop-filter: blur(calc(var(--header-backdrop-filter-blur) * 1.25));
-  backdrop-filter: blur(calc(var(--header-backdrop-filter-blur) * 1.25));
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
 }
-.header-shrink .page-container .page-main-content {
-  padding-top: var(--header-shrink-height);
-keep-tablet()
-keep-mobile()
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
 }
-.page-container .page-main-content .page-main-content-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: $z-index-5;
-  box-sizing: border-box;
-  width: 100%;
-  height: var(--header-height);
-keep-tablet()
-keep-mobile()
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
 }
-.page-container .page-main-content .page-main-content-top.hide {
-  transform: translateY(-105%);
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
 }
-.header-shrink .page-container .page-main-content .page-main-content-top {
-  height: var(--header-shrink-height);
-keep-tablet()
-keep-mobile()
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
 }
-.page-container .page-main-content .page-main-content-top.reset-color .header-content .site-name {
-  color: var(--text-color-1) !important;
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
 }
-.page-container .page-main-content .page-main-content-top.reset-color .header-content .menu-item a {
-  color: var(--text-color-3) !important;
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
 }
-.page-container .page-main-content .page-main-content-top.reset-color .header-content .menu-item a:hover {
-  color: var(--primary-color) !important;
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
 }
-.page-container .page-main-content .page-main-content-top.reset-color .header-content .menu-item i.search {
-  color: var(--text-color-3) !important;
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
 }
-.page-container .page-main-content .page-main-content-middle {
-  z-index: $z-index-2;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: var(--component-gap) 0;
-keep-tablet()
-keep-mobile()
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
 }
-.page-container .page-main-content .page-main-content-middle .main-content {
-  width: var(--page-content-width);
-  max-width: var(--page-content-max-width);
-  height: 100%;
-keep-tablet()
-keep-mobile()
-}
-.has-toc .page-container .page-main-content .page-main-content-middle .main-content {
-  max-width: var(--page-content-max-width-2);
-}
-.page-container .page-main-content .page-main-content-bottom {
-  width: 100%;
-}
-.page-container .post-tools {
-  position: fixed;
-  top: calc(var(--header-height) + var(--component-gap));
-  z-index: $z-index-3;
-  box-sizing: border-box;
-  opacity: 0;
-keep-tablet()
-}
-.page-container .post-tools.right-toc {
-  left: calc((100vw - var(--page-content-max-width) / 2) - 5rem);
-}
-.page-container .post-tools.left-toc {
-  right: calc((100vw - var(--page-content-max-width) / 2) - 5rem);
-}
-.header-shrink .page-container .post-tools {
-  top: calc(var(--header-shrink-height) + var(--component-gap));
-}
-.page-container .side-tools {
-  position: fixed;
-  right: 0;
-  bottom: 1.6rem;
-  z-index: $z-index-3;
-  box-sizing: border-box;
-  padding-right: 1rem;
-keep-tablet()
-}
-.page-container .side-tools:hover .side-tools-container {
-  transform: translateX(0);
-  opacity: 1;
-}
-.page-container .tablet-post-toc-mask {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: $z-index-10;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0);
-  visibility: hidden;
-}
-.page-container .tablet-post-toc-mask .tablet-post-toc {
+
+[jax="SVG"] mjx-tool > mjx-tip {
   position: absolute;
   top: 0;
   left: 0;
-  box-sizing: border-box;
-  width: 22rem;
-  height: 100%;
-  padding: 1.2rem 1rem;
-  background: var(--background-color-1);
-  transform: translateX(-100%);
-keep-mobile()
 }
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style><link rel="alternate" href="/atom.xml" title="RainNot" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left flex-start border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/touxiang.jpg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               RainNot
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc border-box">
+                <ul class="menu-list border-box">
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/">
+                                
+                                首页
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/archives">
+                                
+                                归档
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/tags">
+                                
+                                标签
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/categories">
+                                
+                                分类
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/links">
+                                
+                                友链
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/about">
+                                
+                                关于
+                                
+                            </a>
+                            
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="menu-text-color fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile border-box flex-start">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list border-box">
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
+                            
+                            首页
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
+                            
+                            归档
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/tags">
+                            
+                            标签
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/categories">
+                            
+                            分类
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/links">
+                            
+                            友链
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/about">
+                            
+                            关于
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        阅读《文城》
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/touxiang.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">RainNot</span>
+                                
+                                    <span class="author-badge">炉火纯青</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-star"></i>&nbsp;
+                <span class="datetime">2022年05月03日 17:57</span>
+            </span>
+
+            
+                <span class="meta-info-item post-update-date">
+                    <i class="icon fa-solid fa-arrows-rotate"></i>&nbsp;
+                    <span class="datetime" data-updated="Sun Dec 08 2024 18:12:52 GMT+0800">2024年12月08日 18:12</span>
+                </span>
+            
+        
+
+        
+            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="post-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E9%98%85%E8%AF%BB/">阅读</a></li>
+                        
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E4%BD%99%E5%8D%8E/">余华</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item post-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>577 字</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>1 分钟</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    
+                         <h2 id="本书主要内容">本书主要内容</h2>
+<p>书中讲述的是一个北方男人林祥福带着满月的女儿南下寻找妻子小美的故事。</p>
+<p>林祥福家里比较富裕，家里有四百多亩地，还有一个有六间房的宅院和一百多册书，父亲是一个秀才，爱好做木工，五岁的时候父亲去世了，留下了给林祥福刚做好的一张小桌子和一个小板凳，母亲在林祥福十九岁的时候病倒了，林祥福开始到处拜师学习木匠手艺。</p>
+<p>有一天有一对夫妻，阿强和小美来到了他家门口借宿，操着奇怪的口音，他们说他们住在文城，是去京城找姨夫的，路途遥远，现在没有钱了，男的想把小美放在林祥福家里，等找到人再回来。这一去就是五个月，林祥福与小美已经成为了夫妻。因小美担心阿强，就决定去找他，偷拿了林祥福家里7根大黄鱼和1条小黄鱼，但此时小美已经有了林祥福的骨肉，于是和阿强在南下途中有决定回林祥福家里生下孩子再走，等到女儿满月后，小美又离开了林祥福和阿强回到了家乡溪镇，后来祭天时冻死在道观前，这次林祥福决定带着女儿去南方找到文城和文城中的小美。</p>
+<p>林祥福找了很久，也没有找到文城这个地方，意识到他们说住在文城可能是骗他的，等他走到溪镇时，觉得这里的口音和他们说话的口音很像，于是就和女儿在这里停留下来了，和当地认识的好朋友陈永良做起来了木匠生意，生意做的很大，成了仅次于商会会长顾益民的富人。林祥福就这样在溪镇生活了17年，也在溪镇找了17年，最后顾益民被土匪绑票了，要用枪去赎人，林祥福去给土匪送枪时被一刀杀死。最后林祥福老家的仆人把他的尸体运回老家，在途中歇脚时经过了小美的墓碑。</p>
+
+                    
+                </div>
+
+                
+                        
+<div class="post-copyright-info-container border-box">
+    <div class="copyright-info-content border-box">
+        <div class="copyright-info-top border-box">
+            <div class="copyright-post-title border-box text-ellipsis">
+                阅读《文城》
+            </div>
+
+            <div class="copyright-post-link border-box text-ellipsis">
+                posts/2022/05/03/《WenChen》_book_review/
+            </div>
+        </div>
+
+        <div class="copyright-info-bottom border-box">
+            <div class="copyright-post-author bottom-item">
+                <div class="type">
+                    作者
+                </div>
+                <div class="content">RainNot</div>
+            </div>
+
+            <div class="post-time bottom-item">
+                <div class="type">
+                    发布于
+                </div>
+                <div class="content">2022-05-03 17:57</div>
+            </div>
+
+
+            <div class="post-license bottom-item">
+                <div class="type">
+                    许可
+                </div>
+                <div class="content tooltip" data-tooltip-content="CC BY-NC-SA 4.0">
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">
+                        
+                            <i class="fa-brands fa-creative-commons"></i>
+                            <i class="fa-brands fa-creative-commons-by"></i>
+                            <i class="fa-brands fa-creative-commons-nc"></i>
+                            <i class="fa-brands fa-creative-commons-sa"></i>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <i class="copyright-bg fa-solid fa-copyright"></i>
+    </div>
+    <div class="copy-copyright-info flex-center tooltip" data-tooltip-content="复制版权信息" data-tooltip-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E9%98%85%E8%AF%BB/">阅读</a>
+                                    </li>
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E4%BD%99%E5%8D%8E/">余华</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                            <div class="post-share-container border-box">
+    <ul class="share-list-wrap border-box">
+        <li class="qq share-item border-box flex-center tooltip"
+            data-tooltip-content="分享到 QQ"
+        >
+            <i class="fa-brands fa-qq"></i>
+        </li>
+        <li class="wechat share-item border-box flex-center tooltip tooltip-img"
+            data-tooltip-content="分享到微信"
+            data-tooltip-img-tip="微信扫一扫"
+            data-tooltip-img-style="background-color: #fff; top: -10px; padding: 0.6rem 0.6rem 0.1rem 0.6rem;"
+        >
+            <i class="fa-brands fa-weixin"></i>
+        </li>
+        <li class="weibo share-item border-box flex-center tooltip"
+            data-tooltip-content="分享到微博"
+        >
+            <i class="fa-brands fa-weibo"></i>
+        </li>
+    </ul>
+</div>
+
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/posts/2022/05/15/newspaper_Reading_man/"
+                                   title="阅读《读报纸的人》"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">阅读《读报纸的人》</span>
+                                        <span class="post-nav-item">上一篇</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/posts/2022/04/17/test_footnote/"
+                                   title="测试一下脚注的功能"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">测试一下脚注的功能</span>
+                                        <span class="post-nav-item">下一篇</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+    <div class="comments-container border-box">
+        <div id="comments-anchor" class="comment-area-title border-box">
+            <i class="fas fa-comments"></i>&nbsp;评论
+        </div>
+        <div class="comment-plugin-fail border-box">
+    <span class="fail-tip">评论插件加载失败</span>
+    <button class="reload keep-button">点击重新加载</button>
+</div>
+<div class="comment-plugin-loading flex-center border-box">
+    <i class="loading-icon fa-solid fa-spinner fa-spin"></i>
+    <span class="load-tip">正在加载评论插件</span>
+</div>
+<script data-pjax>
+  window.KeepCommentPlugin = {}
+  window.KeepCommentPlugin.hideLoading = () => {
+    const cplDom = document.querySelector('.comments-container .comment-plugin-loading')
+    cplDom.style.display = 'none'
+  }
+  window.KeepCommentPlugin.loadFailHandle = () => {
+    window.KeepCommentPlugin.hideLoading()
+    const cpfDom = document.querySelector('.comments-container .comment-plugin-fail')
+    cpfDom.style.display = 'flex'
+    cpfDom.querySelector('.reload').addEventListener('click', () => {
+      window.location.reload()
+    })
+  }
+</script>
+
+        
+            
+
+    <div class="valine-container">
+        <div id="vcomments"></div>
+        <script data-pjax
+                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        ></script>
+        <script data-pjax
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        >
+          window.KeepCommentPlugin.initValine = () => {
+            const config = {
+              el: '#vcomments',
+              appId: 'lsaMLPzKppCGLDxB9JVN1n2k-gzGzoHsz',
+              appKey: 'AJn67Ubs4zRSYyuktVcxOXyv',
+              meta: ['nick', 'mail', 'link'],
+              avatar: 'wavatar',
+              enableQQ: true,
+              placeholder: '在这里留下你的想法吧~~~',
+              lang: 'zh-CN'.toLowerCase()
+            }
+
+            if ('') {
+              config.serverURLs = ''
+            }
+
+            if (window?.Valine) {
+              new Valine(config)
+              window.KeepCommentPlugin.hideLoading()
+            } else {
+              setTimeout(() => {
+                window.KeepCommentPlugin.initValine()
+              }, 1000)
+            }
+          }
+
+          if ('true' === 'true') {
+            setTimeout(() => {
+              window.KeepCommentPlugin.initValine()
+            }, 1200)
+          } else {
+            window.addEventListener('DOMContentLoaded', window.KeepCommentPlugin.initValine)
+          }
+        </script>
+    </div>
+
+
+        
+    </div>
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc left-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E4%B9%A6%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="nav-text">本书主要内容</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+    &copy;&nbsp;<span>2020</span>&nbsp;-&nbsp;2024
+    
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">RainNot</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+        
+        <div class="deploy-info info-item">
+            
+            本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/brands/github.png"></span> 提供部署服务
+            
+        </div>
+    
+
+    
+        <div class="count-info info-item">
+            
+                <span class="count-item border-box word">
+                    <span class="item-type border-box">总字数</span>
+                    <span class="item-value border-box word">6.8k</span>
+                </span>
+            
+
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools left-toc">
+            <div class="post-tools-container border-box">
+    <ul class="post-tools-list border-box">
+        <!-- PC encrypt again -->
+        
+
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <!-- toggle mode -->
+        
+            <li class="tools-item tool-toggle-theme-mode flex-center">
+                <i class="fas fa-moon"></i>
+            </li>
+        
+
+        <!-- rss -->
+        
+            <li class="tools-item rss flex-center">
+                <a class="flex-center"
+                   href="/atom.xml"
+                   target="_blank"
+                >
+                    <i class="fas fa-rss"></i>
+                </a>
+            </li>
+        
+
+        <!-- to bottom -->
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+            <li class="tools-item go-to-comments-tablet flex-center">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AC%E4%B9%A6%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9"><span class="nav-text">本书主要内容</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+
+
+<!-- common js -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/toggle-theme.js"></script>
+
+<script src="/js/code-block.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local search -->
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+<!-- lazyload -->
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="pjax">
+    <!-- home page -->
+    
+
+    <!-- post page -->
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+            
+<script src="/js/post/toc.js"></script>
+
+        
+
+        <!-- copyright-info -->
+        
+            
+<script src="/js/post/copyright-info.js"></script>
+
+        
+
+        <!-- share -->
+        
+            
+<script src="/js/post/share.js"></script>
+
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart()
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>

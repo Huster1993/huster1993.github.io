@@ -366,6 +366,7 @@ keep-mobile()
 .keep-markdown-body p > img,
 .keep-markdown-body > .post p > img {
   margin: var(--post-img-align);
+  margin: 0 auto;
 }
 .keep-markdown-body > .table-container,
 .keep-markdown-body > .post > .table-container {
