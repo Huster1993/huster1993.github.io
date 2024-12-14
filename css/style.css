@@ -3564,7 +3564,7 @@ figure.highlight .shrink-line:hover::before {
   background-repeat-y: no-repeat;
 }
 .dark-mode .first-screen-container {
-  background-image: url("/images/bg-black.svg");
+  background-image: url("/images/bg-black.jpg");
 }
 .first-screen-container .first-screen-content {
   display: flex;
