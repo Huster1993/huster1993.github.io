@@ -6,7 +6,7 @@
   <link href="http://rainnot.com/atom.xml" rel="self"/>
   
   <link href="http://rainnot.com/"/>
-  <updated>2025-06-15T11:57:05.086Z</updated>
+  <updated>2025-06-15T13:20:30.442Z</updated>
   <id>http://rainnot.com/</id>
   
   <author>
@@ -17,18 +17,16 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Replace_Blog_Fonts</title>
+    <title>替换博客网站字体</title>
     <link href="http://rainnot.com/posts/2025/06/15/Replace-Blog-Fonts/"/>
     <id>http://rainnot.com/posts/2025/06/15/Replace-Blog-Fonts/</id>
     <published>2025-06-15T11:54:55.000Z</published>
-    <updated>2025-06-15T11:57:05.086Z</updated>
+    <updated>2025-06-15T13:20:30.442Z</updated>
     
-    <content type="html"><![CDATA[<p>最近看了<code>Keep</code>主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。</p><h1>一、明确<code>Keep</code>主题的配置文件</h1><p>首先我们需要知道<code>Keep</code>主题的配置文件的放置位置；</p><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<p>最近看了Keep主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。</p><span id="more"></span><h1>一、明确Keep主题的配置文件</h1><p>首先我们需要知道Hexo项目有两个配置文件，一个是站点的配置文件，另一个是Keep主题的配置文件，都是以.yml结尾的文件，两个配置文件的路径如下：</p><ol><li>站点配置文件：yourhexoblog/_config.yml;</li><li>主题配置文件：yourhexoblog/source/_data/keep.yml<br>需要说明的是，我安装的是keep主题，配置文件名称必须修改为keep.yml。</li></ol><h1>二、准备字体文件</h1><h2 id="2-1-修改为自定义字体">2.1 修改为自定义字体</h2><p>如果需要修改为自定义字体，需要在yourhexoblog/theme/keep/source/font/webfonts文件夹下添加下载的字体，我使用的是霞鹜文楷，就下载了“LXGWWenKai-Regular.ttf”和“LXGWWenKai-Medium.ttf”两个字体文件；</p><h2 id="2-2-修改为内置字体">2.2 修改为内置字体</h2><p>如果需要修改为内置字体，不需要再fonts文件夹新增字体；</p><h1>三、修改自定义CSS文件</h1><p>在yourhexoblog/source/文件夹下新增css文件夹，即yourhexoblog/source/css，在css文件夹内新增custom.css文件，使用文本编辑器打开，输入以下代码：</p><h2 id="3-1-使用自定义字体的css文件">3.1 使用自定义字体的css文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">:root {</span><br><span class="line">    --base-font-size: 16px;   #修改全局默认字体大小</span><br><span class="line">--base-font-family: LXGWWenKai-Regular,LXGWWenKai-Medium;   #修改全局默认字体，这里填刚才放入fonts文件夹的两个字体名称</span><br><span class="line">}</span><br></pre></td></tr></table></figure><h2 id="3-2-使用默认字体的css文件">3.2 使用默认字体的css文件</h2><p>keep主题的默认字体好像只有fa-regular和fa-solid等几个字体，修改上面的–base-font-family后面的内容即可。</p><h1>让css生效</h1><p>使用hexo常用代码，上传到github即可。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>大功告成！</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;最近看了&lt;code&gt;Keep&lt;/code&gt;主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。&lt;/p&gt;
-&lt;h1&gt;一、明确&lt;code&gt;Keep&lt;/code&gt;主题的配置文件&lt;/h1&gt;
-&lt;p&gt;首先我们需要知道&lt;code&gt;Keep&lt;/code&gt;主题的配置文件的放置位置；&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;最近看了Keep主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。&lt;/p&gt;</summary>
     
     
     
@@ -87,9 +85,9 @@
     <category term="计划管理" scheme="http://rainnot.com/categories/%E8%AE%A1%E5%88%92%E7%AE%A1%E7%90%86/"/>
     
     
-    <category term="Plan" scheme="http://rainnot.com/tags/Plan/"/>
-    
     <category term="2025" scheme="http://rainnot.com/tags/2025/"/>
+    
+    <category term="Plan" scheme="http://rainnot.com/tags/Plan/"/>
     
   </entry>
   
@@ -98,15 +96,15 @@
     <link href="http://rainnot.com/posts/2024/12/08/blog-thinking-again/"/>
     <id>http://rainnot.com/posts/2024/12/08/blog-thinking-again/</id>
     <published>2024-12-08T10:56:34.000Z</published>
-    <updated>2024-12-15T04:38:48.165Z</updated>
+    <updated>2025-06-15T12:55:21.933Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>知识是需要沉淀的</p></blockquote><p>今天重新设置好了这个blog的推送路径，对于想要输入和输出的欲望也更加高涨，因此重新搞了一些这个博客，<code>rainnot.com</code>和<code>zhengfei.life</code>这两个域名最近应该会一直保留。</p><span id="more"></span><h1>给自己一个提醒</h1><p>基于Hexo博客的教训，后面几乎忘记了怎么操作，每次更新博客都需要重新再来一遍，因此，有了一个把常用的步骤写下来当做后面观摩学习的教程的设想，当然教程内容不限于<strong>SSL证书</strong>、<strong>群晖NAS的HTTPS访问及反代</strong>、<strong>群晖信息门户的设置</strong>、<strong>Zotero的学习教程</strong>，都是日常在用的东西，一旦更换设备或者接口更新，就不知所措，需要时常记录。</p><h1>作为长期记录的见证者</h1><p>在电子笔记上，我尝试过很多款软件，使用最长的软件是<code>obsidian</code>，但是由于一次WebDav同步冲突，导致很多文件复制了一份，出现了<code>document</code>和<code>document.1</code>这种文件重复的事故，进而导致整个文件系统的反链出现问题，一气之下就又开始寻找新的笔记软件进行代替，并且采用纸笔进行代替，重新开始子弹笔记的应用。<br>因此，我想把博客作为平时生活感悟或者复盘文件的一个收集站，这样平时登录或者年终回顾的时候有迹可循，能看到来时路。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>知识是需要沉淀的</p></blockquote><p>今天重新设置好了这个blog的推送路径，对于想要输入和输出的欲望也更加高涨，因此重新搞了一些这个博客，<strong><a href="http://rainnot.com">rainnot.com</a></strong>和<strong>zhengfei.life</strong>这两个域名最近应该会一直保留。</p><span id="more"></span><h1>给自己一个提醒</h1><p>基于Hexo博客的教训，后面几乎忘记了怎么操作，每次更新博客都需要重新再来一遍，因此，有了一个把常用的步骤写下来当做后面观摩学习的教程的设想，当然教程内容不限于<strong>SSL证书</strong>、<strong>群晖NAS的HTTPS访问及反代</strong>、<strong>群晖信息门户的设置</strong>、<strong>Zotero的学习教程</strong>，都是日常在用的东西，一旦更换设备或者接口更新，就不知所措，需要时常记录。</p><h1>作为长期记录的见证者</h1><p>在电子笔记上，我尝试过很多款软件，使用最长的软件是<strong>obsidian</strong>，但是由于一次WebDav同步冲突，导致很多文件复制了一份，出现了<strong>document</strong>和<strong>document.1</strong>这种文件重复的事故，进而导致整个文件系统的反链出现问题，一气之下就又开始寻找新的笔记软件进行代替，并且采用纸笔进行代替，重新开始子弹笔记的应用。<br>因此，我想把博客作为平时生活感悟或者复盘文件的一个收集站，这样平时登录或者年终回顾的时候有迹可循，能看到来时路。</p>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;知识是需要沉淀的&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;今天重新设置好了这个blog的推送路径，对于想要输入和输出的欲望也更加高涨，因此重新搞了一些这个博客，&lt;code&gt;rainnot.com&lt;/code&gt;和&lt;code&gt;zhengfei.life&lt;/code&gt;这两个域名最近应该会一直保留。&lt;/p&gt;</summary>
+&lt;p&gt;今天重新设置好了这个blog的推送路径，对于想要输入和输出的欲望也更加高涨，因此重新搞了一些这个博客，&lt;strong&gt;&lt;a href=&quot;http://rainnot.com&quot;&gt;rainnot.com&lt;/a&gt;&lt;/strong&gt;和&lt;strong&gt;zhengfei.life&lt;/strong&gt;这两个域名最近应该会一直保留。&lt;/p&gt;</summary>
     
     
     
@@ -166,9 +164,9 @@
     <category term="阅读" scheme="http://rainnot.com/categories/%E9%98%85%E8%AF%BB/"/>
     
     
-    <category term="2024" scheme="http://rainnot.com/tags/2024/"/>
-    
     <category term="Plan" scheme="http://rainnot.com/tags/Plan/"/>
+    
+    <category term="2024" scheme="http://rainnot.com/tags/2024/"/>
     
   </entry>
   

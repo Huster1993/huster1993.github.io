@@ -9,7 +9,7 @@
     
     <title>
         
-            Replace_Blog_Fonts |
+            替换博客网站字体 |
         
         RainNot
     </title>
@@ -351,7 +351,7 @@ mjx-container[display="true"] + br {
             <div class="post-content-bottom border-box">
                 
                     <div class="post-title">
-                        Replace_Blog_Fonts
+                        替换博客网站字体
                     </div>
                 
 
@@ -385,7 +385,7 @@ mjx-container[display="true"] + br {
             
                 <span class="meta-info-item post-update-date">
                     <i class="icon fa-solid fa-arrows-rotate"></i>&nbsp;
-                    <span class="datetime" data-updated="Sun Jun 15 2025 19:57:05 GMT+0800">2025年06月15日 19:57</span>
+                    <span class="datetime" data-updated="Sun Jun 15 2025 21:20:30 GMT+0800">2025年06月15日 21:20</span>
                 </span>
             
         
@@ -418,7 +418,7 @@ mjx-container[display="true"] + br {
         
         
             <span class="meta-info-item post-wordcount">
-                <i class="icon fas fa-file-word"></i>&nbsp;<span>72 字</span>
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>451 字</span>
             </span>
         
         
@@ -445,10 +445,30 @@ mjx-container[display="true"] + br {
                     
 
                     
-                         <p>最近看了<code>Keep</code>主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。</p>
-<h1>一、明确<code>Keep</code>主题的配置文件</h1>
-<p>首先我们需要知道<code>Keep</code>主题的配置文件的放置位置；</p>
+                         <p>最近看了Keep主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。</p>
 <span id="more"></span>
+<h1>一、明确Keep主题的配置文件</h1>
+<p>首先我们需要知道Hexo项目有两个配置文件，一个是站点的配置文件，另一个是Keep主题的配置文件，都是以.yml结尾的文件，两个配置文件的路径如下：</p>
+<ol>
+<li>站点配置文件：yourhexoblog/_config.yml;</li>
+<li>主题配置文件：yourhexoblog/source/_data/keep.yml<br>
+需要说明的是，我安装的是keep主题，配置文件名称必须修改为keep.yml。</li>
+</ol>
+<h1>二、准备字体文件</h1>
+<h2 id="2-1-修改为自定义字体">2.1 修改为自定义字体</h2>
+<p>如果需要修改为自定义字体，需要在yourhexoblog/theme/keep/source/font/webfonts文件夹下添加下载的字体，我使用的是霞鹜文楷，就下载了“LXGWWenKai-Regular.ttf”和“LXGWWenKai-Medium.ttf”两个字体文件；</p>
+<h2 id="2-2-修改为内置字体">2.2 修改为内置字体</h2>
+<p>如果需要修改为内置字体，不需要再fonts文件夹新增字体；</p>
+<h1>三、修改自定义CSS文件</h1>
+<p>在yourhexoblog/source/文件夹下新增css文件夹，即yourhexoblog/source/css，在css文件夹内新增custom.css文件，使用文本编辑器打开，输入以下代码：</p>
+<h2 id="3-1-使用自定义字体的css文件">3.1 使用自定义字体的css文件</h2>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">:root {</span><br><span class="line">    --base-font-size: 16px;   #修改全局默认字体大小</span><br><span class="line">	--base-font-family: LXGWWenKai-Regular,LXGWWenKai-Medium;   #修改全局默认字体，这里填刚才放入fonts文件夹的两个字体名称</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<h2 id="3-2-使用默认字体的css文件">3.2 使用默认字体的css文件</h2>
+<p>keep主题的默认字体好像只有fa-regular和fa-solid等几个字体，修改上面的–base-font-family后面的内容即可。</p>
+<h1>让css生效</h1>
+<p>使用hexo常用代码，上传到github即可。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>大功告成！</p>
 
                     
                 </div>
@@ -459,7 +479,7 @@ mjx-container[display="true"] + br {
     <div class="copyright-info-content border-box">
         <div class="copyright-info-top border-box">
             <div class="copyright-post-title border-box text-ellipsis">
-                Replace_Blog_Fonts
+                替换博客网站字体
             </div>
 
             <div class="copyright-post-link border-box text-ellipsis">
@@ -676,7 +696,7 @@ mjx-container[display="true"] + br {
             <div class="pc-post-toc left-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">一、明确Keep主题的配置文件</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">一、明确Keep主题的配置文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">二、准备字体文件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E4%BF%AE%E6%94%B9%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93"><span class="nav-text">2.1 修改为自定义字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E4%BF%AE%E6%94%B9%E4%B8%BA%E5%86%85%E7%BD%AE%E5%AD%97%E4%BD%93"><span class="nav-text">2.2 修改为内置字体</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">三、修改自定义CSS文件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93%E7%9A%84css%E6%96%87%E4%BB%B6"><span class="nav-text">3.1 使用自定义字体的css文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%AD%97%E4%BD%93%E7%9A%84css%E6%96%87%E4%BB%B6"><span class="nav-text">3.2 使用默认字体的css文件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">让css生效</span></a></li></ol>
     </div>
 </div>
 
@@ -718,7 +738,7 @@ mjx-container[display="true"] + br {
             
                 <span class="count-item border-box word">
                     <span class="item-type border-box">总字数</span>
-                    <span class="item-value border-box word">8k</span>
+                    <span class="item-value border-box word">8.4k</span>
                 </span>
             
 
@@ -885,7 +905,7 @@ mjx-container[display="true"] + br {
             <div class="tablet-post-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">一、明确Keep主题的配置文件</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">一、明确Keep主题的配置文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">二、准备字体文件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E4%BF%AE%E6%94%B9%E4%B8%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93"><span class="nav-text">2.1 修改为自定义字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E4%BF%AE%E6%94%B9%E4%B8%BA%E5%86%85%E7%BD%AE%E5%AD%97%E4%BD%93"><span class="nav-text">2.2 修改为内置字体</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">三、修改自定义CSS文件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AD%97%E4%BD%93%E7%9A%84css%E6%96%87%E4%BB%B6"><span class="nav-text">3.1 使用自定义字体的css文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%AD%97%E4%BD%93%E7%9A%84css%E6%96%87%E4%BB%B6"><span class="nav-text">3.2 使用默认字体的css文件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">让css生效</span></a></li></ol>
     </div>
 </div>
 
