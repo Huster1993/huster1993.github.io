@@ -1,3 +1,7 @@
-root:{
-	--base-font-family: LXGWWenKai-Regular.ttf;
+body {
+  font-family: 'LXGWWenKai-Regular', 'Microsoft YaHei', 'PingFang SC', sans-serif,'LXGWWenKai-Medium';
+}
+
+:root:{
+	--base-font-family: LXGWWenKai-Regular,LXGWWenKai-Medium;
 }
