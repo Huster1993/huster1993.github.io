@@ -6,7 +6,7 @@
   <link href="http://rainnot.com/atom.xml" rel="self"/>
   
   <link href="http://rainnot.com/"/>
-  <updated>2025-06-15T13:20:30.442Z</updated>
+  <updated>2025-06-15T13:24:50.209Z</updated>
   <id>http://rainnot.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://rainnot.com/posts/2025/06/15/Replace-Blog-Fonts/"/>
     <id>http://rainnot.com/posts/2025/06/15/Replace-Blog-Fonts/</id>
     <published>2025-06-15T11:54:55.000Z</published>
-    <updated>2025-06-15T13:20:30.442Z</updated>
+    <updated>2025-06-15T13:24:50.209Z</updated>
     
-    <content type="html"><![CDATA[<p>最近看了Keep主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。</p><span id="more"></span><h1>一、明确Keep主题的配置文件</h1><p>首先我们需要知道Hexo项目有两个配置文件，一个是站点的配置文件，另一个是Keep主题的配置文件，都是以.yml结尾的文件，两个配置文件的路径如下：</p><ol><li>站点配置文件：yourhexoblog/_config.yml;</li><li>主题配置文件：yourhexoblog/source/_data/keep.yml<br>需要说明的是，我安装的是keep主题，配置文件名称必须修改为keep.yml。</li></ol><h1>二、准备字体文件</h1><h2 id="2-1-修改为自定义字体">2.1 修改为自定义字体</h2><p>如果需要修改为自定义字体，需要在yourhexoblog/theme/keep/source/font/webfonts文件夹下添加下载的字体，我使用的是霞鹜文楷，就下载了“LXGWWenKai-Regular.ttf”和“LXGWWenKai-Medium.ttf”两个字体文件；</p><h2 id="2-2-修改为内置字体">2.2 修改为内置字体</h2><p>如果需要修改为内置字体，不需要再fonts文件夹新增字体；</p><h1>三、修改自定义CSS文件</h1><p>在yourhexoblog/source/文件夹下新增css文件夹，即yourhexoblog/source/css，在css文件夹内新增custom.css文件，使用文本编辑器打开，输入以下代码：</p><h2 id="3-1-使用自定义字体的css文件">3.1 使用自定义字体的css文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">:root {</span><br><span class="line">    --base-font-size: 16px;   #修改全局默认字体大小</span><br><span class="line">--base-font-family: LXGWWenKai-Regular,LXGWWenKai-Medium;   #修改全局默认字体，这里填刚才放入fonts文件夹的两个字体名称</span><br><span class="line">}</span><br></pre></td></tr></table></figure><h2 id="3-2-使用默认字体的css文件">3.2 使用默认字体的css文件</h2><p>keep主题的默认字体好像只有fa-regular和fa-solid等几个字体，修改上面的–base-font-family后面的内容即可。</p><h1>让css生效</h1><p>使用hexo常用代码，上传到github即可。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>大功告成！</p>]]></content>
+    <content type="html"><![CDATA[<p>最近看了Keep主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。</p><span id="more"></span><h1>一、明确Keep主题的配置文件</h1><p>首先我们需要知道Hexo项目有两个配置文件，一个是站点的配置文件，另一个是Keep主题的配置文件，都是以.yml结尾的文件，两个配置文件的路径如下：</p><ol><li>站点配置文件：yourhexoblog/_config.yml;</li><li>主题配置文件：yourhexoblog/source/_data/keep.yml<br>需要说明的是，我安装的是keep主题，配置文件名称必须修改为keep.yml。</li></ol><h1>二、准备字体文件</h1><h2 id="2-1-修改为自定义字体">2.1 修改为自定义字体</h2><p>如果需要修改为自定义字体，需要在yourhexoblog/theme/keep/source/font/webfonts文件夹下添加下载的字体，我使用的是霞鹜文楷，就下载了“LXGWWenKai-Regular.ttf”和“LXGWWenKai-Medium.ttf”两个字体文件；</p><h2 id="2-2-修改为内置字体">2.2 修改为内置字体</h2><p>如果需要修改为内置字体，不需要再fonts文件夹新增字体；</p><h1>三、修改自定义CSS文件</h1><p>在yourhexoblog/source/文件夹下新增css文件夹，即yourhexoblog/source/css，在css文件夹内新增custom.css文件，使用文本编辑器打开，输入以下代码：</p><h2 id="3-1-使用自定义字体的css文件">3.1 使用自定义字体的css文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">:root {</span><br><span class="line">    --base-font-size: 16px;   #修改全局默认字体大小</span><br><span class="line">--base-font-family: LXGWWenKai-Regular,LXGWWenKai-Medium;   #修改全局默认字体，这里填刚才放入fonts文件夹的两个字体名称</span><br><span class="line">}</span><br></pre></td></tr></table></figure><h2 id="3-2-使用默认字体的css文件">3.2 使用默认字体的css文件</h2><p>keep主题的默认字体好像只有fa-regular和fa-solid等几个字体，修改上面的–base-font-family后面的内容即可。</p><h1>让css生效</h1><p>使用hexo常用代码，上传到github即可。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>大功告成！</p><p>更新：这样好像只修改了网页版的字体，为什么在手机浏览器上就不生效呢？</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;最近看了Keep主题群里的聊天，想把博客网站的字体替换一下，下面是我操作的步骤和查询的资料。&lt;/p&gt;</summary>
@@ -85,9 +85,9 @@
     <category term="计划管理" scheme="http://rainnot.com/categories/%E8%AE%A1%E5%88%92%E7%AE%A1%E7%90%86/"/>
     
     
-    <category term="2025" scheme="http://rainnot.com/tags/2025/"/>
-    
     <category term="Plan" scheme="http://rainnot.com/tags/Plan/"/>
+    
+    <category term="2025" scheme="http://rainnot.com/tags/2025/"/>
     
   </entry>
   
@@ -164,9 +164,9 @@
     <category term="阅读" scheme="http://rainnot.com/categories/%E9%98%85%E8%AF%BB/"/>
     
     
-    <category term="Plan" scheme="http://rainnot.com/tags/Plan/"/>
-    
     <category term="2024" scheme="http://rainnot.com/tags/2024/"/>
+    
+    <category term="Plan" scheme="http://rainnot.com/tags/Plan/"/>
     
   </entry>
   
