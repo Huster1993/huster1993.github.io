@@ -65,9 +65,9 @@
     <category term="生活感悟" scheme="http://rainnot.com/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
     
     
-    <category term="Blog" scheme="http://rainnot.com/tags/Blog/"/>
-    
     <category term="写作" scheme="http://rainnot.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
+    <category term="Blog" scheme="http://rainnot.com/tags/Blog/"/>
     
   </entry>
   
